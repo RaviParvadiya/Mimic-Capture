@@ -1,0 +1,46 @@
+* {
+    touch-action: manipulation;
+    font-family: sans-serif;
+  }
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+table, td, th {
+  border: 1px;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+}
+
+h1, h2{
+    text-align:center;
+}
+
+.form{
+    margin-top: 20px;
+}
+#content{
+    width: 70%;
+}
+
+#canvas{
+    display: block;
+    margin: 0 auto;
+}
+
+.result-div {
+    text-align:center;
+}
+
+#bootstrap-overrides .row{
+    --bs-gutter-x: 0;
+}
